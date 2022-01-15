@@ -1,0 +1,520 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+section {
+    margin: 100px 0;
+}
+
+
+/* -------------------
+  header area start
+ -------------------- */
+
+#header-area {
+    margin-top: 50px;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+    padding: 0 30px;
+}
+
+ul.menu-items li {
+    list-style: none;
+    margin: 10px 15px;
+}
+
+ul.menu-items li:last-child {
+    margin-right: 0;
+}
+
+ul.menu-items li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+    transition: color .3s;
+}
+
+a#home-link {
+    color: #ff5200;
+}
+
+ul.menu-items li:hover a {
+    color: #ff5200;
+}
+
+button.influencer-btn:hover {
+    background: #ff5200;
+}
+
+.influencer-image:hover img {
+    transform: rotate(40deg);
+}
+
+.influencer-image img {
+    transition: transform .5s;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.menu-items {
+    display: flex;
+    align-items: center;
+}
+
+h3.menu-title {
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+}
+
+/* -----------------
+ header area end
+------------------- */
+
+/*------------------------
+ influencer area start
+------------------------- */
+
+section.influencer-area>.container {
+    display: flex;
+    align-items: center;
+}
+
+section.influencer-area {
+    margin-top: 20px;
+}
+
+h1.influencer-title {
+    font-size: 50px;
+    color: #333;
+    margin: 0;
+    line-height: 1.3;
+}
+
+article.influencer-left p {
+    color: #333;
+    font-weight: 600;
+    padding-right: 120px;
+}
+
+button.influencer-btn {
+    padding: 10px 24px;
+    background: #f16d2c;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+    border-radius: 25px;
+    font-size: 15px;
+    margin-top: 10px;
+    transition: background .3s;
+}
+
+.influencer-image {
+    background: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+i.fas.fa-arrow-right {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+i.fas.fa-search {
+    font-size: 24px;
+}
+
+i.fas.fa-shopping-cart {
+    font-size: 24px;
+}
+
+
+/*---------------------
+ influencer area end
+ ---------------------*/
+
+/*-------------------------
+  collection area start
+ ------------------------- */
+h2.collection-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.collection-box {
+    width: 275px;
+    padding: 15px;
+    border-radius: 5px;
+    /* margin: 0 16px; */
+    box-shadow: 0px 0px 30px 0px #ddd;
+}
+
+.collection-boxes {
+    padding: 0px 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+
+h2.collection-name {
+    font-weight: 500;
+    font-size: 28px;
+    margin: 5px 0;
+    color: #222;
+}
+
+h2.collection-price {
+    font-weight: 400;
+    margin: 5px 0;
+    color: #222;
+}
+
+p.collection-feedback {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p.collection-feedback i {
+    font-size: 10px;
+    color: #ff5200;
+}
+
+p.collection-feedback span {
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #555;
+}
+
+
+p.collection-advantage {
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    margin: 0;
+}
+
+.collection-image {
+    overflow: hidden;
+}
+
+
+.collection-image img {
+    width: 100%;
+}
+
+.see-more {
+    float: right;
+    position: relative;
+    right: 85px;
+    top: 45px;
+}
+
+.see-more a {
+    text-decoration: none;
+    color: #ff5200;
+    font-weight: 600;
+}
+
+i.fas.fa-arrow-right.more {
+    margin-left: 5px;
+}
+
+section.join-area {
+    background: #f1f1f1;
+    padding: 50px;
+    margin-bottom: 0;
+}
+
+.join-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+}
+
+h1.join-title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 500;
+    color: #333;
+}
+
+input[type="email"] {
+    width: 700px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    outline: none;
+}
+
+button.join {
+    width: 200px;
+    padding: 12px;
+    border: none;
+    background: #ff5200;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 10px;
+    margin: auto;
+    cursor: pointer;
+}
+
+footer.footer-area {
+    background: #0A0826;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+h1.footer-title {
+    margin: 0px;
+    font-size: 24px;
+}
+
+p.copyright {
+    font-size: 14px;
+    color: #e7e7e7;
+    margin: 0;
+    line-height: 2.3;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+
+.footer-icon a {
+    display: inline-block;
+    font-size: 17px;
+    color: #e7e7e7;
+    background: #ffffff14;
+    border-radius: 25px;
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    transition: color .3s;
+}
+
+.footer-icon a:hover {
+    color: #ff5200;
+}
+
+/*--------------------------------------
+            Media Queries
+---------------------------------------*/
+
+/*----------------------- mobile view start------------------------------ */
+
+@media only screen and (max-width:688px) {
+    body {
+        padding: 0px;
+    }
+
+    .container {
+        padding: 0px;
+        width: 100%;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+
+
+    nav {
+
+        flex-direction: column;
+
+    }
+
+    .menu-items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul.menu-items li:last-child {
+        margin-right: 15px;
+    }
+
+    .influencer-image {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .influencer-image img {
+        width: 100%;
+    }
+
+    h1.influencer-title {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    button.influencer-btn {
+        width: 175px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    article.influencer-left p {
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .collection-area {
+        padding-bottom: 80px;
+        margin-bottom: 0;
+    }
+
+    .collection-boxes {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    h1.join-title {
+        text-align: left;
+        font-size: 100%;
+    }
+
+    .join-area {
+        margin-top: 0px;
+        display: none;
+    }
+
+    .collection-box {
+        width: 100%;
+        margin: 0px;
+
+    }
+
+
+
+}
+
+/*--------------------- mobile view end---------------------------- */
+
+/*--------------------- tablet view start --------------------------*/
+
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    body {
+        padding: 0px;
+    }
+
+    .container {
+        padding: 0px;
+        width: 100%;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    h3.menu-title {
+        font-size: 2em;
+    }
+
+    nav {
+
+        flex-direction: column;
+
+    }
+
+    .menu-items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul.menu-items li:last-child {
+        margin-right: 15px;
+    }
+
+    ul.menu-items li a {
+        font-size: 1.5em;
+    }
+
+    i.fas.fa-search, i.fas.fa-shopping-cart {
+        font-size: 1.5em;
+    }
+
+    .influencer-image {
+        margin-top: 50px;
+    }
+
+    .influencer-image img {
+        width: 100%;
+    }
+
+    h1.influencer-title {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    button.influencer-btn {
+        width: 175px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    article.influencer-left p {
+        padding-right: 0px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .collection-area {
+        padding-bottom: 80px;
+        margin-bottom: 0;
+    }
+
+    .collection-boxes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 65px;
+    }
+
+    .collection-box:last-child {
+        display: none;
+    }
+
+    .influencer-left {
+        padding: 10px;
+    }
+
+    h1.join-title {
+        text-align: left;
+        font-size: 100%;
+    }
+
+    .join-area {
+        margin-top: 0px;
+        display: none;
+    }
+
+    .collection-box {
+        width: 100%;
+        margin: 0px;
+
+    }
+
+
+}
+
+/*------------------- tablet view end ---------------------- */
